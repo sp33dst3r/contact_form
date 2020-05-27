@@ -1,7 +1,7 @@
 <template>
     <div>
         <div v-if="success" class="alert alert-success" role="alert">
-            This is a success alert—check it out!
+            Your message's sent!
         </div>
         <div v-if="errors.length" class="alert alert-danger" role="alert">
             <div v-for="error in errors">
